@@ -1,4 +1,78 @@
-# Welcome to your Lovable project
+# Advanced Encryption & Decryption Tool
+
+A versatile and user-friendly encryption tool that lets you secure your text using a wide range of encryption methods—from basic ciphers to military-grade AES. Ideal for learning, experimenting, and enhancing your understanding of encryption techniques.
+
+## 🚀 Features
+
+- ✅ Multiple Encryption Methods
+- Caesar Cipher
+- Vigenère Cipher
+- Atbash Cipher
+- Morse Code
+- Base64
+- AES (Advanced Encryption Standard)
+
+- 🔑 Custom Secret Key Support
+- Enable custom keys for AES, Vigenère, and Caesar ciphers
+- Secure key input with password masking
+
+- 📊 Security Strength Meter
+- Visual indicator (scale 1–10) to show the relative strength of each method
+
+- 📘 Method Guide Tab
+- Descriptions, comparisons, and best-use cases for each encryption type
+
+- 🛡️ Improved Error Handling
+- Clear, descriptive messages for invalid inputs or unsupported operations
+
+## 🧠 Use Cases
+
+- Educational purposes (understanding how different encryption methods work)
+- Lightweight text obfuscation
+- Comparing encryption strengths
+- Experimenting with secret key usage
+
+## 🛠️ Getting Started
+Prerequisites
+- Node.js (v14 or higher recommended)
+- npm or yarn
+
+## Installation
+```
+git clone https://github.com/yourusername/encryption-tool.git
+cd encryption-tool
+npm install
+```
+
+## Run the Development Server
+```
+npm run dev
+```
+
+## Build for Production
+```
+npm run build
+```
+
+## 📁 Project Structure
+```
+/src
+  ├── components/
+  ├── utils/         # Encryption logic
+  ├── EncryptionTool.tsx
+  └── App.tsx
+```
+
+## 🧪 Coming Soon
+
+- File encryption support
+- Dark mode UI
+- Export encrypted results
+
+## 📄 License
+This project is licensed under the MIT License.
+
+# Lovable Project Info
 
 ## Project info
 
